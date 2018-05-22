@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ab8465b-4c19-4bcf-8854-6e444190ec6f" name="Default" comment="" />
+    <list default="true" id="5ab8465b-4c19-4bcf-8854-6e444190ec6f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/activity.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1192">
@@ -40,6 +43,15 @@
               <folding>
                 <element signature="e#13#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -91,15 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="print.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/fmt/print.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="200" selection-start-line="200" selection-end-line="200" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sleep.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/sleep.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,6 +142,7 @@
         <option value="$PROJECT_DIR$/cmd/heartrate.go" />
         <option value="$PROJECT_DIR$/cmd/dailyexport.go" />
         <option value="$PROJECT_DIR$/cmd/common.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -165,11 +169,6 @@
             <path>
               <item name="fitbit_modaa" type="b2602c69:ProjectViewProjectNode" />
               <item name="fitbit_modaa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fitbit_modaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fitbit_modaa" type="462c0819:PsiDirectoryNode" />
-              <item name="cmd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,8 +216,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="3840" height="2160" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.09375" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.09375" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" />
@@ -227,7 +227,7 @@
       <window_info anchor="bottom" id="Run" order="6" weight="0.32874763" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32874763" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32874763" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.16081594" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -436,6 +436,13 @@
           <folding>
             <element signature="e#13#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
