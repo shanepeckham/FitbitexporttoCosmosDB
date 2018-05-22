@@ -1,0 +1,9 @@
+# Extract your Fitbit data and write to CosmosDB
+
+Thanks to [stapelberg](https://github.com/stapelberg/fitbit-backup) the starter. 
+
+* Register your app with Fitbit, get your client secret and id - see [Getting started](https://dev.fitbit.com/getting-started/)
+* Set the following ENV VARS: FITBIT_CLIENTID, FITBIT_CLIENT_SECRET, MONGOURL (your CosmosDB Mongo connection string)
+* Run daily export to extract data - current scopes set are Sleep, Activities and HeartRate
+* Run in batch mode from a 'genesis date' to extract everything from that day to yesterday
+* Once all data is caught up, run as a Daeomset in Kubernetes
