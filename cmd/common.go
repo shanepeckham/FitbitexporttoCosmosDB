@@ -88,8 +88,6 @@ func authorize(conf *oauth2.Config) (*oauth2.Token, error) {
 		errors <- http.ListenAndServe(":7319", nil)
 	}()
 
-	//authUrl := "https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22CSMZ&redirect_uri=http%3A%2F%2Flocalhost%3A7319%2F&response_type=code&scope=activity%20heartrate%20sleep&expires_in=604800"
-
 	authUrl := conf.AuthCodeURL("state", oauth2.AccessTypeOffline)
 	fmt.Println("Please visit the following URL to authorize:")
 	fmt.Println(authUrl)
